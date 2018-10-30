@@ -1,0 +1,23 @@
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+
+.header {
+    width: 100%;
+    height: 50px;
+    background-color:green;
+
+}
+
+.footer {
+    background-color: green;
+}
+
+.main-content { /* WIP */
+    width: 960px;
+    height: auto;
+}
+
