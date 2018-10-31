@@ -2,22 +2,79 @@
 body {
     margin: 0;
     padding: 0;
+    background-image: url(../images/backgrounds/dust_scratches/dust_scratches/dust_scratches.png);
 }
 
-
-.header {
+/* header/footer styles*/
+.page-header {
     width: 100%;
-    height: 50px;
-    background-color:green;
+    height: 90px;
+    margin: 0;
+    padding: 0;
+    background-color:#ffffff;
+    border-bottom: 3px solid #cccccc;
+}
 
+.header-container {
+    width: 960px;
+    margin: auto;
+}
+
+.header-name {
+    width: 250px;
+    text-align: center;
+    background-color: #4aaaa5;
+    color: #ffffff;
+    line-height: 90px;
+    margin: 0;
+    float: left;
+}
+
+.header-links {
+    float: right;
+    line-height: 90px;
 }
 
 .footer {
-    background-color: green;
+    background-color: #666666;
+    width: 100%;
+    height: 60px;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    border-top: 10px solid #4aaaa5;
 }
 
-.main-content { /* WIP */
+
+/* main content styles */
+.main-container {
+    background-color: white;
     width: 960px;
-    height: auto;
+    margin: 40px auto;
+    padding-left: 30px;
+    padding-right: 30px;
+    box-sizing: border-box;
+    border: 1px solid #dddddd;
 }
 
+.content-header {
+    border-bottom: 5px solid black;
+    margin-bottom: 17px;
+}
+
+.img {
+    width: 200px;
+    height: 150px;
+    float: left;
+    padding: 0 25px 0 1px;
+}
+
+.biography {
+    color: black;
+}
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
