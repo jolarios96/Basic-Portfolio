@@ -87,6 +87,24 @@ body {
     color: #777777;
 }
 
+.portfolio-left-entry {
+    width: 220px;
+    height: 165px;
+    float: left;
+    margin: 0 0 50px 173px;
+}
+
+.portfolio-right-entry {
+    width: 220px;
+    height: 165px;
+    float: right;
+    margin: 0 173px 50px 0;
+}
+
+/* .portfolio-container {
+    margin: 0;
+} */
+
 .clearfix::after {
     content: "";
     clear: both;
