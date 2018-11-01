@@ -76,8 +76,8 @@ body {
 }
 
 .img {
-    width: 200px;
-    height: 150px;
+    width: auto;
+    height: auto;
     float: left;
     padding: 0 25px 0 1px;
 }
